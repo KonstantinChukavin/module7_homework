@@ -7,10 +7,10 @@
 */
 
 function Device(smartphone, power) {
-    this.score = 'citylink',
-        this.capacity = function () {
-            console.log(`Battery capacity ${smartphone} is - ${power} mAh`);
-        }
+    this.score = 'citylink';
+    this.capacity = function () {
+        console.log(`Battery capacity ${smartphone} is - ${power} mAh`);
+    }
 }
 
 const samsung = new Device('galaxy S22 Ultra', 5000);

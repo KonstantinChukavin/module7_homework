@@ -4,10 +4,10 @@
 
 class Device {
     constructor(smartphone, power) {
-        this.score = 'citylink',
-            this.capacity = function () {
-                console.log(`Battery capacity ${smartphone} is - ${power} mAh`);
-            };
+        this.score = 'citylink';
+        this.capacity = function () {
+            console.log(`Battery capacity ${smartphone} is - ${power} mAh`);
+        };
     }
 }
 
